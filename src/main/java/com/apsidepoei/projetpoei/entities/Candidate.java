@@ -1,6 +1,5 @@
 package com.apsidepoei.projetpoei.entities;
 
-import com.apsidepoei.projetpoei.database.contracts.AcquiredMattersContract;
 import com.apsidepoei.projetpoei.database.contracts.AddressContract;
 import com.apsidepoei.projetpoei.database.contracts.CandidateContract;
 import com.apsidepoei.projetpoei.database.contracts.CompanySessionContract;
@@ -148,10 +147,10 @@ public class Candidate extends Person {
    * Return the ranking label.
    * @return the ranking label
    */
-  @JsonIgnore
-  public String getRankingLabel() {
-    return this.ranking.toValue();
-  }
+//  @JsonIgnore
+//  public String getRankingLabel() {
+//    return this.ranking.toValue();
+//  }
 
   /**
    * Set the rankin.
